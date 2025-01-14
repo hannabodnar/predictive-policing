@@ -37,7 +37,7 @@ prevention, enabling efficient resource allocation, and reducing criminal activi
 
 ### Data Source
 
-The dataset was sourced from the Los Angeles Open Data Portal and features over 932,000 crime records from 2020 to the present.
+The dataset was sourced from the [Los Angeles Open Data Portal][lapd-data] and features over 932,000 crime records from 2020 to the present.
 
 ### Data Description
 
@@ -86,8 +86,28 @@ EDA revealed patterns in crime demographics, trends over time, and spatial distr
 
 ## Acknowledgments
 
-* Data Source: Los Angeles Open Data Portal
+* Data Source: [LAPD Crime Data][lapd-data]
 * Geospatial Tools: GeoPandas, ArcGIS
 
 ## References
+
+1. [LAPD Crime Data][lapd-data]
+2. [STL Decomposition][stl-ref]
+3. [Decision Boundaries][dec-bound]
+4. [Los Angeles Geohub][la-geohub]
+5. [Crime Data from 2020 to Present][crime-data]
+6. [Los Angeles Data][la-data]
+7. [Spatial Autocorrelation][spat-cor]
+8. [LAPD Statistical Data][lapd-stats]
+9. [U.S. Census Bureau LA QuickFacts][la-facts]
+
+[lapd-data]: https://catalog.data.gov/dataset/crime-data-from-2020-to-present
+[stl-ref]: https://otexts.com/fpp2/stl.html
+[dec-bound]: https://medium.com/analytics-vidhya/decision-boundary-for-classifiers-an-introduction-cc67c6d3da0e
+[la-geohub]: https://geohub.lacity.org
+[crime-data]: https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+[la-data]: https://datausa.io/profile/geo/los-angeles-ca
+[spat-cor]: https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/spatial-autocorrelation.htm
+[lapd-stats]: https://www.lapdonline.org/statistical-data/
+[la-facts]: https://www.census.gov/quickfacts/fact/table/losangelescitycalifornia/PST045223
 
