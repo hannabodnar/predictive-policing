@@ -1,12 +1,10 @@
 import pandas as pd
 import numpy as np
-from datetime import datetime
-from sklearn.model_selection import train_test_split, cross_val_score, RandomizedSearchCV, learning_curve
+from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import classification_report, ConfusionMatrixDisplay, roc_curve, auc
 import matplotlib.pyplot as plt
 
 # load data
