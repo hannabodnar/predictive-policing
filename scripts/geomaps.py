@@ -1,13 +1,8 @@
 import pandas as pd
-import numpy as np
 import geopandas as gpd
 from shapely.geometry import Point
 from libpysal import weights
 from esda.moran import Moran, Moran_Local
-
-from multiprocessing import Pool
-from sklearn.neighbors import NearestNeighbors
-from matplotlib.colors import ListedColormap
 import matplotlib.pyplot as plt
 
 # Load shapefile

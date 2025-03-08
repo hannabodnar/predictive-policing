@@ -1,13 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from statsmodels.tsa.seasonal import seasonal_decompose, STL
+from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
-import statsmodels.api as sm
-import itertools
-from sklearn.model_selection import TimeSeriesSplit
-from sklearn.metrics import mean_squared_error
-#from pmdarima.arima import auto_arima
-import numpy as np
 import seaborn as sns
 
 # Load Data
